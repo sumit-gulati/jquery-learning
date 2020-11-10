@@ -19,3 +19,26 @@ if(a%2==0){
 else{
   console.log("Odd")
 }
+
+var a = 50;
+var b = 0;
+for(var i=1; i<= a; i++){
+
+    if(i%2 == 0){
+      b = i + b;
+    }
+    // if(i%2 !== 0){
+    //   b = i + b;
+    // }
+}
+console.log("Total sum of even numbers " +b);
+
+var a = 50;
+var b = 0;
+for(var i=1; i<= a; i++){
+
+    if(i%2 !== 0){
+      b = i + b;
+    }
+}
+console.log("Total sum of odd numbers " +b);
