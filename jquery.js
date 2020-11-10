@@ -11,3 +11,11 @@ for(var i = 0; i < array.length; i++){
     }
 }
 console.log(min, max)
+
+var a = 9;
+if(a%2==0){
+  console.log("Even")
+}
+else{
+  console.log("Odd")
+}
