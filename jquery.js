@@ -42,3 +42,12 @@ for(var i=1; i<= a; i++){
     }
 }
 console.log("Total sum of odd numbers " +b);
+
+var array = [10, 2, 40, 23, 40];
+var a = 0;
+for (var i = 0; i <array.length; i++){
+  a = a + array [i]
+
+  console.log(a)
+}
+
